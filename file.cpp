@@ -1,6 +1,3 @@
-/* ucant_know_me*/
-#pragma GCC optimize("O3,unroll-loops")
-
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -24,6 +21,8 @@ using namespace std;
 #define set_bits __builtin_popcountll
 #define sz(x) ((int)(x).size())
 #define all(x) (x).begin(), (x).end()
+#define yes cout<<"YES\n"
+#define no cout<<"NO\n"
 
 #ifdef ucant_know_me
 #define debug(x) cerr << #x<<" "; _print(x); cerr << endl;
@@ -49,9 +48,8 @@ typedef map<ll,ll> m64;
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
 void solve()
-{
+{    
     
-
     cout<<ln;
 }
 
@@ -60,7 +58,7 @@ int main() {
     int t;
     cin >> t;
     for(int i = 1; i <= t; i++){
-        //google(i);
+        // cout<<"Case#"<<i<<": ";
         solve();
     }
 }
